@@ -1,0 +1,7 @@
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/labb1.dir
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/install.dir
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+D:/progs/qt/labb1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/install/strip.dir

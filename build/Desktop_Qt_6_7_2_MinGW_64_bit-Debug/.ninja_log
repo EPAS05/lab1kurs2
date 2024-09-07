@@ -1,0 +1,11 @@
+# ninja log v6
+2	61	7474218382895976	CMakeFiles/labb1.dir/main.cpp.obj	a0003df94f6f282b
+10	322	7474218382975235	CMakeFiles/labb1.dir/application.cpp.obj	4d0a95ff32bc825e
+6	397	7474218382936164	CMakeFiles/labb1.dir/array.cpp.obj	6c65ee672d13137a
+398	518	7474218386858963	labb1.exe	9311c62cc3adf466
+6	63	7474219897228770	CMakeFiles/labb1.dir/main.cpp.obj	a0003df94f6f282b
+63	182	7474219897805403	labb1.exe	9311c62cc3adf466
+17	78	7474224242266277	CMakeFiles/labb1.dir/main.cpp.obj	a0003df94f6f282b
+24	346	7474224242336291	CMakeFiles/labb1.dir/application.cpp.obj	4d0a95ff32bc825e
+21	418	7474224242306285	CMakeFiles/labb1.dir/array.cpp.obj	6c65ee672d13137a
+418	529	7474224246272446	labb1.exe	9311c62cc3adf466
