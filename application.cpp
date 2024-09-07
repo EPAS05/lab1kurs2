@@ -27,8 +27,11 @@ void Application::input() {
     int command;
     std::cin >> command;
     switch(command){
-    case 1:
+    case 1: 
         array.in(array.getSize());
+        std::cout << "Press any button" << std::endl;
+        _getch();
+        system("cls");
         break;
     case 2:
         findSrAndSKO();
@@ -97,7 +100,7 @@ void Application::setElement(){
 
 void Application::printArray(){
     std::cout << "size of array is " << array.getSize() << std::endl;
-    array.print();
+    std::cout << array;
     std::cout << "Press any button" << std::endl;
     _getch();
     system("cls");

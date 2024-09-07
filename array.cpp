@@ -76,13 +76,14 @@ void Array::in(int N) {
     }
 };
 
-void Array::print(){
-    std::cout<<"Elements: ";
-    for (int i = 0; i < size; i++) {
-        std::cout<< data[i] << " ";
-    };
-    std::cout<<std::endl;
-};
+std::ostream& operator<<(std::ostream& os, const Array& array) {
+    os << "Array size: " << array.size << "\nElements: ";
+    for (int i = 0; i < array.size; i++) {
+        os << array.data[i] << " ";
+    }
+    os << std::endl;
+    return os;
+}
 
 void Array::setElement(int index, number value){
     if (index >= 0 && index < size){

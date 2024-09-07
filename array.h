@@ -1,4 +1,5 @@
 #include "number.h"
+#include <iostream>
 #ifndef ARRAY_H
 #define ARRAY_H
 
@@ -17,10 +18,10 @@ public:
     number findSr();
     number findSKO();
     void in(int N);
-    void print();
     void setElement(int index, number value);
     int getSize();
     number getElement(int index);
+    friend std::ostream& operator<<(std::ostream& os, const Array& array);
 };
 
 #endif // ARRAY_H
