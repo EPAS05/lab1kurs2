@@ -29,7 +29,8 @@ void Application::input() {
     switch(command){
     case 1: 
         array.in(array.getSize());
-        std::cout << "Press any button" << std::endl;
+
+        std::cout << "Array saved. \nPress any button to continue" << std::endl;
         _getch();
         system("cls");
         break;
@@ -93,13 +94,13 @@ void Application::setElement(){
     std::cin>>value;
     array.setElement(index, value);
     std::cout << "Element at index " << index << " is " << value;
-    std::cout << "Press any button" << std::endl;
+    std::cout << "\nPress any button" << std::endl;
     _getch();
     system("cls");
 }
 
 void Application::printArray(){
-    std::cout << "size of array is " << array.getSize() << std::endl;
+    //std::cout << "size of array is " << array.getSize() << std::endl;
     std::cout << array;
     std::cout << "Press any button" << std::endl;
     _getch();
