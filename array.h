@@ -17,10 +17,10 @@ public:
     void Sort(bool isUp);
     number findSr();
     number findSKO();
-    void in(int N);
     void setElement(int index, number value);
     int getSize();
     number getElement(int index);
+    friend std::istream& operator>>(std::istream& is, Array& array);
     friend std::ostream& operator<<(std::ostream& os, const Array& array);
 };
 

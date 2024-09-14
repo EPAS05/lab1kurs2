@@ -64,17 +64,22 @@ number Array::findSKO(){
     return std::sqrt(sumSKO / (size - 1));
 };
 
-void Array::in(int N) {
-    if (data != nullptr) { 
-        delete[] data;
+std::istream& operator>>(std::istream& is, Array& array) {  
+    if (array.data != nullptr) {
+        delete[] array.data;
     }
-    size = N;
-    data = new number[N];
+
+    int N = array.size; 
+    array.data = new number[N]; 
+
     std::cout << "Enter " << N << " elements: ";
     for (int i = 0; i < N; i++) {
-        std::cin >> data[i];
+        is >> array.data[i]; 
     }
-};
+
+    return is;
+}
+
 
 std::ostream& operator<<(std::ostream& os, const Array& array) {
     os << "Array size: " << array.size << "\nElements: ";

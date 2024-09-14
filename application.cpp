@@ -28,7 +28,7 @@ void Application::input() {
     std::cin >> command;
     switch(command){
     case 1: 
-        array.in(array.getSize());
+        std::cin >> array;
 
         std::cout << "Array saved. \nPress any button to continue" << std::endl;
         _getch();
